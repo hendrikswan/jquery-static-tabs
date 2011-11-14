@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Demo of static tabs</title>
+		<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.10.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.10.custom.min.js"></script>
+		<script type="text/javascript" src="js/jquery-staticTabs.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#tabs').staticTabs({selectedTab:"tab-1"});
+                        });
+		</script>	
+	</head>
+	<body>
+	<h1>Demo of static tabs</h1>
+
+		<div id="tabs">
+			<ul>
+				<li id="tab-1"><a href="#tabs-1">First</a></li>
+				<li id="tab-2"><a href="#tabs-2">Second</a></li>
+				<li id="tab-3"><a href="#tabs-3">Third</a></li>
+			</ul>
+                        <div>Some server side generated content</div>
+		</div>
+
+	</body>
+</html>
